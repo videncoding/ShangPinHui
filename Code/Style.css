@@ -1,0 +1,50 @@
+.body {
+    font-family: PingFangSC-medium;
+}
+.relative {
+    position: relative;
+}
+.container {
+    width: 1190px;
+    position: relative;
+    margin: 0 auto;
+}
+.header {
+    width: 1920px;
+    height: 30px;
+    background-color: #ECECECFF;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666666FF;
+}
+/* Header 部分 */
+.container-header {
+    font-size: 12px;
+}
+.ch-left {
+    width: 204px;
+    float: left;
+}
+.ch-right {
+    width: 656px;
+    float: right;
+}
+.ch1 {
+    position: absolute;
+    left: 0px;
+}
+.ch2 {
+    position: absolute;
+    left: 100px;
+}
+.ch3 {
+    position: absolute;
+    left: 146px;
+}
+.ch4 {
+    position: absolute;
+    left: 157px;
+}
+.chr-item {
+    margin: 0 7.5px;
+}
