@@ -3,7 +3,7 @@
     width: 1190px;
     margin: 0 auto;
 }
-/* 顶部导航条start */
+/* #region顶部导航条start */
 .topbar{
     height: 30px;
     background-color: #ECECEC;
@@ -45,4 +45,29 @@
     padding-right: 0;
     border: 0;
 }
-/* 顶部导航条end */
+/* #endregion顶部导航条end */
+
+/* #region头部start */
+.header {
+    height: 120px;
+    background-color: skyblue;
+}
+.header .search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+}
+.header .search button {
+    width: 80px;
+    height: 36px;
+    background-color: #DD302D;
+    vertical-align: top;
+    background-image: url(../../Resource/assets/serch_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* #endregion头部end */
