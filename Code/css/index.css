@@ -98,8 +98,48 @@
     font-size: 16px;
     color: #333;
 }
-
-
-
-
 /* #endregion主导航区end */
+
+/* #region侧边导航start */
+.main-content {
+    margin-top: 10px;
+}
+.main-content .side-nav {
+    width: 190px;
+    height: 458px;
+    background-color: #f4f4f4;
+}
+
+.main-content .side-nav li {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+.main-content .side-nav li:first-child {
+    padding-top: 5px;
+}
+.main-content .side-nav li:last-child {
+    padding-bottom: 5px;
+}
+.main-content .side-nav li:hover {
+    background-color: red;
+}
+.main-content .side-nav li:hover a {
+    color: white;
+}
+
+
+
+.main-content .banner {
+    width: 690px;
+    height: 458px;
+    background-color: #f4f4f4;
+    margin: 0 10px;
+}
+.main-content .side-other {
+    width: 290px;
+    height: 458px;
+    background-color: #f4f4f4;
+}
+/* #endregion侧边导航end */
