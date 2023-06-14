@@ -110,7 +110,6 @@
     background-color: #f4f4f4;
     position: relative;
 }
-
 .main-content .side-nav li {
     font-size: 14px;
     height: 28px;
@@ -128,17 +127,6 @@
 }
 .main-content .side-nav li:hover>a {
     color: white;
-}
-.main-content .banner {
-    width: 690px;
-    height: 458px;
-    background-color: #f4f4f4;
-    margin: 0 10px;
-}
-.main-content .side-other {
-    width: 290px;
-    height: 458px;
-    background-color: #f4f4f4;
 }
 .second-menu {
     width: 700px;
@@ -170,8 +158,109 @@
     height: 36px;
     line-height: 36px;
 }
+.main-content .banner {
+    width: 690px;
+    height: 458px;
+    background-color: #f4f4f4;
+    margin: 0 10px;
+}
+.main-content .side-other {
+    width: 290px;
+    height: 458px;
+}
+.side-other .message {
+    width: 260px;
+    height: 156px;
+    border: 1px solid #D9D9D9;
+    padding: 0 14px;
+}
+.side-other .message .title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 14px;
+    font-weight: bold;
+}
+.side-other .message .list li {
+    height: 26px;
+    line-height: 26px;
+}
+.side-other .other-nav {
+    width: 290px;
+    height: 290px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.other-nav-list li {
+    width: 48px;
+    height: 70px;
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.other-nav-list li:first-child {
+    margin-left: 16px;
+}
+.other-nav-list:first-child {
+    margin-top: 16px;
+}
+.other-nav-list:nth-child(2) {
+    margin: 17px 0;
+}
+.other-nav-list .picture {
+    width: 48px;
+    height: 48px;
+    background-image: url(../../Resource/assets/精灵图-侧边功能.png);
+
+}
+.other-nav-list:nth-child(1) li:nth-child(1) .picture {
+    background-position: 0 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(2) .picture {
+    background-position: -48px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(3) .picture {
+    background-position: -96px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(4) .picture {
+    background-position: -144px 0;
+}
+.other-nav-list:nth-child(2) li:nth-child(1) .picture {
+    background-position: 0 -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(2) .picture {
+    background-position: -48px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(3) .picture {
+    background-position: -96px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(4) .picture {
+    background-position: -144px -48px;
+}
+.other-nav-list:nth-child(3) li:nth-child(1) .picture {
+    background-position: 0 -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(2) .picture {
+    background-position: -48px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(3) .picture {
+    background-position: -96px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(4) .picture {
+    background-position: -144px -96px;
+}
 /* #endregion主内容区end */
 
-/* #region侧边二级菜单start */
+/* #region秒杀start */
+.seckill {
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+.seckill img {
+    float: left;
+    cursor: pointer;
+}
+/* #endregion秒杀end */
 
-/* #endregion侧边二级菜单end */
