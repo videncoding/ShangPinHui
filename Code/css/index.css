@@ -349,3 +349,86 @@
     border-bottom: 1px solid #E2E2E2;
 }
 /* #endregion楼层end */
+
+/* #region页脚start */
+.footer {
+    height: 440px;
+    background-color: #483E3E;
+    color: #FFF;
+    margin-top: 48px;
+}
+.footer-service {
+    height: 176px;
+    /* background-color: skyblue; */
+    padding-top: 48px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #584D4D;
+}
+.footer-service .service {
+    width: 190px;
+    font-size: 14px;
+    color: #FFF;
+    float: left;
+    margin-right: 10px;
+    line-height: 24px;
+}
+.footer-service .service:last-child {
+    margin: 0;
+}
+.footer-service a {
+    color: #FFF;
+}
+.footer-service a:hover {
+    color: red;
+}
+.footer-service .service1 {
+    height: 176px;
+}
+.footer-service .service2 {
+    height: 128px;
+}
+.footer-service .service3 {
+    height: 128px;
+}
+.footer-service .service4 {
+    height: 152px;
+}
+.footer-service .service5 {
+    height: 176px;
+}
+.footer-service .service6 {
+    height: 152px;
+}
+
+.about-us {
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-us li {
+    float: left;
+}
+.about-us li:first-child {
+    margin-left: 95px;
+}
+.about-us li a {
+    color: #FFF;
+    padding: 0 26px;
+    border-right: 1px solid #FFF;
+}
+.about-us li:last-child a:last-child {
+    border: 0;
+}
+
+.police {
+    width: 190px;
+    height: 18px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* #endregion页脚end */
